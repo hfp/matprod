@@ -2,7 +2,7 @@
 
 # tim prefix ...
 #
-# Creates prefix.tim from prefix.out by extracting elapased time information,
+# Creates prefix.tim from prefix.out by extracting elapsed time information,
 # plus headers.
 
 for i in $@; do

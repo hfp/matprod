@@ -23,7 +23,7 @@ in the directory "tests", which share a common framework, and which
 can also be used to test matrix multiply routines in a BLAS or other
 library.  These test programs can perform checks on correctness, but
 are mainly meant for testing speed.  If ALIGN and/or ALIGN_OFFSET is
-defined, the test program will allocate matrices with the specfied
+defined, the test program will allocate matrices with the specified
 alignment.
 
 
@@ -154,13 +154,13 @@ make-common for details):
 
       Like blas-test, except that all BLAS routines are taken from one
       file called blas1.f.  The version of blas1.f distributed is the
-      one used in R-2.15.0, which is a modifed version of those in the
+      one used in R-2.15.0, which is a modified version of those in the
       reference BLAS.
 
     blas2-test
 
       Like blas-test, except that all BLAS routines are taken from one
-      file called blas2.f.  The vesion of blas2.f distributed is the
+      file called blas2.f.  The version of blas2.f distributed is the
       modified version of the one from R-2.15.0 that is used in pqR.
 
     blas3-test
